@@ -11,7 +11,7 @@ public class JSON_Client {
 
     public static void main(String[] args) throws IOException {
         
-        //Vengono inizializzate le 2 socket
+        //Viene inizializzata la socket
         Socket socket = new Socket("127.0.0.1", 3000);
 
         // Creazione della stream della socket (in entrata)
